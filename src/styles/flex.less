@@ -1,0 +1,106 @@
+@font-face {
+  font-family: DINPro-Medium;
+  src: url('./DINPro-Bold.OTF');
+}
+
+.flex-y {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-x {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.f-y-c {
+  display: flex;
+  align-items: center;
+}
+
+.f-x-c {
+  display: flex;
+  justify-content: center;
+}
+
+.f-c-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-evenly {
+  // 均衡分布
+  align-content: space-evenly;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.flex-0 {
+  flex: 0;
+}
+
+.flex-1 {
+  flex: 1; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  flex-grow: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.justify-content-evenly {
+  // 平均分布
+  justify-content: space-evenly;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.safe-footer {
+  padding-bottom: constant(safe-area-inset-bottom) !important;
+  padding-bottom: env(safe-area-inset-bottom) !important;
+}
