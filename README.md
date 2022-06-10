@@ -2,7 +2,7 @@
 
 ## 预览
 
-![](./waterfall.gif)
+<img src="./waterfall.gif" alt="waterfall" >
 
 ## 介绍
 
