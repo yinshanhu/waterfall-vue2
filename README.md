@@ -2,6 +2,8 @@
 
 ## 预览
 
+![](./waterfall.gif)
+
 ## 介绍
 
 - 技术栈：vue2 + vant 组件(list) + vue-lazyload
